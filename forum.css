@@ -1,0 +1,90 @@
+body {
+  background-color: #F4F5F7;
+}
+#header {
+  text-align: center;
+}
+#header_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.id_box {
+  width: 200px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+#post_number_box {
+  width: 50px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border:none;
+}
+#post_name_box {
+  width: 150px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border:none;
+}
+#post_email_box {
+  width: 220px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 8px;
+  border:none;
+}
+.contents_id {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  transform: translateX(-25px);
+}
+.contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#post_fix, #post_delete {
+  cursor: pointer;
+  background: #75A9FF;
+  border: solid 2px #005FFF;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 6px 20px;
+  margin-bottom: 15px;
+}
+.contents_button {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#footer {
+  text-align: center;
+  margin-top: 100px;
+}
+textarea {
+  width: 30%;
+  border-radius: 8px;
+  border:none;
+  margin-right: 20px;
+  resize: none;
+}
+#new_post {
+  cursor: pointer;
+  background: #75A9FF;
+  border: solid 2px #005FFF;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 35px;
+}
+#text:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 15px 0 dodgerBlue;
+}

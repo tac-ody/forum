@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-color: #F4F5F7;
+}
+#name_box ,#email_box {
+  width: 200px;
+  margin-bottom: 10px;
+}
+#name_box:focus ,#email_box:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 5px 0 dodgerBlue;
+}
+#submit {
+  cursor: pointer;
+  background: #75A9FF;
+  border: solid 2px #005FFF;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 35px;
+}
